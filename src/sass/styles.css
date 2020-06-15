@@ -65,7 +65,7 @@ body,
       display: none; }
   .site .container .site__main {
     display: flex;
-    padding: 4em 0;
+    padding: 4em 0 0 0;
     flex-direction: column;
     margin: 0 auto; }
     .site .container .site__main .site__main__pic {
@@ -73,7 +73,7 @@ body,
       width: 250px;
       height: auto; }
     .site .container .site__main .site__main__description {
-      padding: 2em 0; }
+      padding: 2em 0 0 0; }
       .site .container .site__main .site__main__description h2 {
         font-family: "Roboto", sans-serif;
         font-size: 2em;
@@ -90,7 +90,7 @@ body,
       .site .container .site__main .site__main__description h4 {
         color: #faf8fd;
         width: 100%;
-        margin-top: 15px;
+        margin-top: 25px;
         font-size: 1em; }
 
 @media (min-width: 750px) {
@@ -105,7 +105,7 @@ body,
         display: inline; }
     .site .container .site__main {
       flex-direction: row;
-      padding: 5em 0; }
+      padding: 5em 0 0 0; }
       .site .container .site__main .site__main__pic,
       .site .container .site__main .site__main__description {
         width: 50%; }
